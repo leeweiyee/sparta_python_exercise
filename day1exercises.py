@@ -83,7 +83,7 @@ print(hi)
 # print(rev_test)
 # print(test.upper() == rev_test.upper())
 
-# Lists
+# Lists: ORDERED, CHANGABLE, ALLOWS DUBPLICATE MEMBERS, uses []
 # shopping_list = ["eggs", "bread", "bananas", "biscuits", "milk"]
 # print(shopping_list)
 # print(type(shopping_list))
@@ -131,12 +131,11 @@ print(hi)
 #     print(num*2)
 
 # Declare a list of 10 numbers, check condition if a<15, write to another list, print list
-list_1 = [1,2,4,5,6,8]
-new_list = []
-for num in list_1:
-    if num<5:
-        new_list.append(num)
-    else:
-        continue
-print(new_list)
-
+# list_1 = [1,2,4,5,6,8]
+# new_list = []
+# for num in list_1:
+#     if num<5:
+#         new_list.append(num)
+#     else:
+#         continue
+# print(new_list)
