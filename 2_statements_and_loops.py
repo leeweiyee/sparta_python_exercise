@@ -122,12 +122,12 @@
 #
 # for key in dict_data:
 # 	print(key, " -->", dict_data[key])
-
+#
 # for value in dict_data:
 # 	print(value)
 # 	for item in dict_data.values():
 # 		print(item)
-
+# print(dict_data[1]['name'])
 
 
 # for item in dict_data.values():
