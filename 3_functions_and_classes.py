@@ -74,10 +74,9 @@
 #         else:
 #             print(self.number)
 #
-# number_range = range(101)
-# for n in number_range:
-#     num1 = FizzBuzz(n)
-#     num1.is_FizzBuzz()
+# for n in range(101):
+#     number = FizzBuzz(n)
+#     number.is_FizzBuzz()
 
 # Creating object from class is instantiation
 # only with the object you can run the method that declared inside the function
@@ -100,7 +99,7 @@
 # Create objects from the class
 # x = Dog("Fido", 8) # whatever attribute the dog class has, x will inherit
 # y = Dog("Dido", 3)
-# print("THis is my dog", x.name + ".") # check if the value has been assigned
+# print("This is my dog", x.name + ".") # check if the value has been assigned
 # print("It is", x.age, "years old.")
 # print(x.run(), y.jump())
 # print(x.bark(), y.bark())

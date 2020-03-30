@@ -67,7 +67,7 @@
 # elif film_rating.lower() == "18":
 # 	print("No one younger than 18 may see an 18 film in a cinema.")
 # else:
-# 	print("this is not a correct rating, please use unniversal, pg, 12, 12a, 15, 18")
+# 	print("this is not a correct rating, please use universal, pg, 12, 12a, 15, 18")
 
 # Exercise FizzBuzz
 # for number in range(51):
@@ -81,7 +81,7 @@
 # 		print(number)
 # number = int(input('Please enter a number: '))
 # number_range = list(range(1, number+1))
-# for number in number_range(51):
+# for number in number_range:
 # 	if number % 3 == 0:
 # 		print("Fizz")
 # 	elif number % 5 == 0:
@@ -90,12 +90,14 @@
 # 		print('Fizzbuzz')
 # 	else:
 # 		print(number)
+
 # For loops
 # fruits = ['apple', 'bananas', 'cherry']
 # for x in fruits:
-# 	print(x)
-# 	if x == 'banana'
-# 		break
+#     if x == 'bananas':
+#         break
+#     print(x)
+# print('Out of loop')
 
 # for x in range(6):
 # 	print (x)
@@ -136,7 +138,7 @@
 
 # While loop
 # x = 0
-# while x < 10:
+# while x<10:
 # 	print(f"It is working --> {x}")
 # 	x = x+1
 # while x<10:

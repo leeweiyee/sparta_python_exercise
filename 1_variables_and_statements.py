@@ -139,3 +139,13 @@ print(hi)
 #     else:
 #         continue
 # print(new_list)
+
+def is_even_position(list_param, value):
+    if list_param[value] % 2 == 0:
+        return True
+    else:
+        return False
+t = [9,8,7,6,5,4,3,2,1,6]
+print(is_even_position(t,6))
+print(is_even_position(t,3))
+print(is_even_position(t,1))

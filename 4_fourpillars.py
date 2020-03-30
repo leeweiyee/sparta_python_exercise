@@ -63,5 +63,12 @@ class Snake(Reptile):
     def sleep(self):
         return("Please leave me to sleep")
 
+Sidney = Snake('DOO',2)
+print(Sidney.eat())
+print(Sidney.sleep())
+print(Sidney.seek_heat())
 
-# Polymorphism
+# Polymorphism: defines methods in child class that have the same name as the methods in the parent class
+# The child class inherits the methods from the parent class
+# Method overriding: modify a method in a child class that it inherited from the parent class
+# e.g. sleep in Snake override the one in Reptile
