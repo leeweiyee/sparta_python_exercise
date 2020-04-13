@@ -39,6 +39,36 @@
 #     return a/b
 # print(division(2, 6))
 
+# def is_even_position(list_param, value):
+#     if list_param.index(value) % 2 == 0:
+#         print(list_param.index(value))
+#         return True
+#     else:
+#         print(list_param.index(value))
+#         return False
+# t = [9,8,7,6,5,4,3,2,1,6]
+# print(is_even_position(t,6))
+# print(is_even_position(t,3))
+# print(is_even_position(t,1))
+
+# def simple_conditional(x):
+#   if x == 0:
+#     print("x is equal to zero.")
+#   elif x >= 0:
+#     print("x is greater than zero.")
+#   else:
+#     print("x is less than zero.")
+#
+# simple_conditional(0)
+
+# def is_foo(param):
+#   if param.lower() == 'foo':
+#     return True
+#   else:
+#     return False
+#
+# print(is_foo('Foo'))
+
 # CLASSES: A way of bringing both data and functionality together
 # Define a class
 # class Dog: # class name always has to start with a capital letter

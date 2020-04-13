@@ -8,14 +8,17 @@ print('Well, ' + name + ', ' + 'I am thinking of a number between 1 and 20. Can 
 print('You have 3 tries.')
 
 while guesses_taken <3 :
-    guess = int(input('Take a guess: '))
-    guesses_taken += 1
-    if guess<number:
-        print('Your guess is too low.')
-    elif guess>number:
-        print('Your guess is too high.')
-    else:
-        print('Congratulations! You guessed it!')
-        break
+    try:
+        guess = int(input('Take a guess: '))
+        guesses_taken += 1
+        if guess < number:
+            print('Your guess is too low.')
+        elif guess > number:
+            print('Your guess is too high.')
+        else:
+            print('Congratulations! You guessed it!')
+            break
+    except ValueError:
+        print('Your answer was not a number. Try again!')
 else:
     print('Oh no! You have run out of tries. Better luck next time!')

@@ -28,6 +28,7 @@ print(hi)
 # double_quotes = "Look!"
 # print(single_quotes)
 # print(double_quotes)
+
 # example = "here's me"
 # print(example.upper())
 # print(example.capitalize())
@@ -77,6 +78,8 @@ print(hi)
 # print(bool(None))
 
 # test = "Hannah"
+# print(len(test))
+# print(test[0:5]) # returns Hanna
 # rev_test = test[-1:-7:-1]
 # rev_test2 = test[::-1]
 # print(test)
@@ -139,13 +142,3 @@ print(hi)
 #     else:
 #         continue
 # print(new_list)
-
-def is_even_position(list_param, value):
-    if list_param[value] % 2 == 0:
-        return True
-    else:
-        return False
-t = [9,8,7,6,5,4,3,2,1,6]
-print(is_even_position(t,6))
-print(is_even_position(t,3))
-print(is_even_position(t,1))

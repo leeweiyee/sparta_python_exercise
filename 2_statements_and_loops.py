@@ -30,6 +30,8 @@
 # print(student_1['completed lesson names'][1])
 # student_1['completed lesson names'].remove('data types')
 # print(student_1['completed lesson names'])
+# student_1.keys()
+# student_1.get()
 
 # Sets: UNORDERED, UNINDEXED, NO DUPLICATE MEMBERS; uses {}
 # car_parts = {'wheels', 'doors', 'exhaust'}
@@ -45,8 +47,8 @@
 # print(type(x))
 
 # Three Types of Control Flow
-# 1. If statements
-# 2. For statements
+# 1. If statement
+# 2. For loop
 # 3. While loop
 
 # age = 25
@@ -146,3 +148,15 @@
 # 	if x==4:
 # 		break
 # 	x = x + 1
+
+# big_number_list = [1, 2, -1, 4, -5, 5, 2, -9]
+# for i in big_number_list:
+#   if i < 0:
+#     continue
+#   print(i)
+
+# dog_breeds = ['bulldog', 'dalmation', 'shihtzu', 'poodle', 'collie']
+# index = 0
+# while index < len(dog_breeds):
+#   print(dog_breeds[index])
+#   index += 1
