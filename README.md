@@ -1,9 +1,21 @@
-# Python training
+# Python training contents
 
-##### Python development week:
-- Variables
-- Statements
-- Functions
-- Methods
-- Classes
-- Four pillars of OOP
+- Python development
+    - Variables
+    - Statements
+    - Loops
+    - Functions
+    - Lambda functions
+    - Methods
+    - Classes
+    - Object-oriented programming: abstraction, encapsulation, inheritance, polymorphism
+    - Unit testing (unittest, pytest)
+    - Glossary of all python development notes
+- Working with csv files
+- Working with Excel files (openpyxl, xlsxwriter)
+- Connecting to SQL databases (pyodbc)
+- Jupyter Notebook and Anaconda
+- Working with API (requests, json, time, BeautifulSoup)
+- Data analysis (NumPy, pandas, Matplotlib, seaborn)
+- IMDb API Project: basic API written in flask to interact with a dockerised IMDb database
+- HTTP Postcodes Project: simple scripts written to fetch JSON from RESTful APIs
